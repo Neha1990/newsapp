@@ -1,0 +1,32 @@
+<div class="container">
+  <h2>Report News</h2>
+
+
+  
+<%= form_with scope: :article, url: articles_path,  local: true do |form| %>
+  <p>
+    <%= form.label :title %><br>
+    <%= form.text_field :title,style: 'width:50%;' %>
+  </p>
+ 
+  <p>
+    <%= form.label :description %><br>
+    <%= form.text_area :description,:rows => 10, style: 'width:100%;' %>
+  </p>
+ 
+ <p>
+    <%= form.label :author %><br>
+    <%= form.text_field :author,style: 'width:50%;' %>
+  </p>
+ 
+ <p>
+    <%= form.label :tags %><br>
+    <%= form.text_field :tags,style: 'width:50%;' %>
+  </p>
+ 
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
+<%= link_to 'Back', articles_path %>
+</div>
