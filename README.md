@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 * Rails version :5.1.4
 * Dependencies
     -Mysql2
-* Must have mysql install
+* Must have mysql install with default configuration.
 
 ### Deployment instructions
   * Dowload repository
