@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Ruby On Rails Application
+Implemented CRUD Functionality with MYSQL database 
 
-Things you may want to cover:
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-* Ruby version
+### Prerequisites :
+* Ruby version :2.3.3
+* Rails version :5.1.4
+* Dependencies
+    -Mysql2
+* Must have mysql install
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Deployment instructions
+  * Dowload repository
+  * ```cd /newsapp```
+  * Run rails server using following command
+  ```rails server```
