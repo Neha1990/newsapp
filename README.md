@@ -18,3 +18,4 @@ These instructions will get you a copy of the project up and running on your loc
   * ```cd /newsapp```
   * Run rails server using following command
   ```rails server```
+  * visit localhost:3000
